@@ -1,0 +1,223 @@
+hr
+{
+	border: 2px solid black;
+}
+
+div.BodyDiv
+{
+	margin-left:13cm;
+	margin-right:13cm;
+	margin-top:2cm;
+	margin-bottom:2cm;
+	text-align: center;
+	background-color: #0047b3;
+	border: 2px solid black;
+	color:white;
+}
+
+div.BodyDivTable
+{
+	margin-left:10cm;
+	margin-right:10cm;
+	margin-top:2cm;
+	margin-bottom:2cm;
+	text-align: center;
+	background-color: #0047b3;
+	border: 2px solid black;
+	color:white;
+}
+
+.header
+{
+	background-color:white;
+	border:4px solid black;
+	border-radius:10px;
+	margin-right:1px;
+}
+
+.LoginBox
+{
+	border:2px solid black;
+	background-color: white;
+	width:200px;
+	height: 20px;
+}
+
+.LogButton
+{
+	background-color: orange;
+	color: black;
+	border:none;
+	margin-right:38px;
+	font-weight: bold;
+	transition: background 1s, color 1s;
+	width: 75px;
+	height: 30px;
+	border-radius:10px;
+	float: right;
+}
+
+.LogButton:hover
+{
+	background-color: transparent;
+	border: 3px solid orange;
+	cursor: pointer;
+	color: white;
+}
+
+.Descripton
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0.5cm;
+	margin-bottom:0.5cm;
+	width: 50%;
+	text-align: center;
+	background-color: #0047b3;
+	border: 2px solid black;
+	color:white;
+}
+
+img.img
+{
+	width:150px;
+	height:200px;
+	border: 2px solid black;
+}
+
+div.img
+{
+	margin-left:auto;
+	margin-right:auto;
+	color: black;
+	font-weight: bold;
+  	width: 50%;
+}
+
+.des
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	color:orange;
+}
+
+.desP
+{
+	color:black;
+	text-align:justify;
+	font-weight:bold;
+}
+
+.Button
+{
+	 background-color: orange;
+	 color: black;
+	 border:none;
+	 font-weight: bold;
+	 transition: background 1s, color 1s;
+	 width: 75px;
+	 height: 30px;
+	 border-radius:10px;
+	 float: right;
+}
+
+.Button:hover
+{
+	background-color: transparent;
+	border: 3px solid orange;
+	cursor: pointer;
+	color: white;
+}
+
+div.func
+{
+	float:center;
+	width:50%;
+	margin:auto;
+}
+
+input.func
+{
+	background-color: orange;
+	color: black;
+	border:none;
+	font-weight: bold;
+	transition: background 1s, color 1s;
+	width: 218px;
+	height: 40px;
+	border-radius:10px;
+}
+
+button.func
+{
+	background-color: orange;
+	color: black;
+	border:none;
+	font-weight: bold;
+	transition: background 1s, color 1s;
+	width: 218px;
+	height: 40px;
+	border-radius:10px;
+}
+
+input.func:hover
+{
+	background-color: transparent;
+	border: 3px solid orange;
+	cursor: pointer;
+	color: white;
+}
+
+button.func:hover
+{
+	background-color: transparent;
+	border: 3px solid orange;
+	cursor: pointer;
+	color: white;
+}
+
+.order
+{
+	margin:auto;
+	width:50%;
+	margin-top:4cm;
+	align-items:center; 
+	font-weight:bold;
+}
+
+.Table
+{
+	margin: auto;
+	width:80%;
+	margin-top:1cm;
+	margin-bottom:1cm;
+	border-collapse: collapse;
+}
+
+.Th
+{	
+	width: 20%;
+	border: 3px solid black;
+	border-collapse: collapse;
+
+}
+
+.Td
+{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+.OrderMain
+{
+	margin-left:3cm;
+	margin-right:3cm;
+	margin-top:2cm;
+	margin-bottom:2cm;
+	width:85%;
+	text-align: center;
+	background-color: #0047b3;
+	border: 2px solid black;
+	color:white;
+}

@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ready shipment goods</title>
+<link rel = "stylesheet"  href="Styles.css">
+<script src="PurchasingManager.js"></script>
+</head>
+<body style="font-family:Arial; background-color:#3385ff;">
+	<div class="header">
+	<h1 style="margin-left:20px;"><font size="60px"><i>ZOHO</i></font><br>
+	Stock Management System</h1>
+	<hr>
+	<h3 style="margin-left:20px;">Shipping Manager</h3>
+	
+	</div>
+    <br>
+    <div class="BodyDivTable">
+	<h1><span style="color:orange">Add New Supplier</span> Here</h1> <br>
+    <br>
+	<form method="POST" action="AddSupplierServlet">
+		<table style="margin:auto; width:65%; text-align:left">
+
+			<tr>
+				<td>Supplier Name:</td>
+				<td><input class="LoginBox" type="text" name="Sname" /></td>
+			</tr>
+			<tr>
+				<td>Registered Number:</td>
+				<td><input class="LoginBox" type="text" name="RegNo" /></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input class="LoginBox" type="text" name="Saddress" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input class="LoginBox" type="text" name="Semail" /></td>
+			</tr>
+			<tr>
+				<td>Contact Number:</td>
+				<td><input class="LoginBox" type="text" name="Sphone" /></td>
+			</tr>
+			</table>
+			<br><br>
+			<div>
+				<input class="func" type="submit" value="Add Supplier" /> <br><br>
+				<input  class="func" type="reset" value="Reset" ><br><br>
+				<input class="func" type="button" value="Show Supplier Details"  onclick="showButton()"><br>
+			</div>
+			</form>
+			<br><div style="margin:auto;width:80%;" id="div1" ></div>
+			<div>
+				<form method= "post" action="BackDescriptionServlet"><button class="func" type="submit" name="button" value="PM">Back to Profile</button></form><br><br>
+			</div>
+	</div>
+	
+    
+</body>
+</html>
